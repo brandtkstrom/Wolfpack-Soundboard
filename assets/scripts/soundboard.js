@@ -6,10 +6,7 @@ class Sound {
 
     play() {
         this.audio.currentTime = 0;
-        this.audio
-            .play()
-            .then(val => console.log(val))
-            .catch(err => console.log(err));
+        this.audio.play().catch(err => console.log(err));
     }
 }
 
