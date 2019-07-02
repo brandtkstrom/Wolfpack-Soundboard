@@ -13,8 +13,14 @@ body {
     height: 100%;
     font-family: "Roboto", sans-serif;
     text-align: center;
-    background-color: rgb(32, 34, 37);
+    background-color: rgb(47, 49, 54);
     color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: rgb(32, 34, 37);
+    border-bottom: 5px solid;
+    border-color: rgb(185, 187, 190);
 }
 
 section {
