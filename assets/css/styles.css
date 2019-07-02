@@ -64,3 +64,13 @@ button:hover {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 475px) {
+    h1 {
+        line-height: 65px;
+    }
+
+    #sounds {
+        margin-top: 20px;
+    }
+}
