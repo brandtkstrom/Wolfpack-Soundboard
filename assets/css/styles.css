@@ -80,3 +80,17 @@ button:active {
         width: 100%;
     }
 }
+
+@media (hover: none) and (pointer: coarse) {
+
+    button:hover {
+        background-color: rgb(185, 187, 190);
+        transition: none;
+    }
+
+    button:active {
+        background-color: rgb(255, 255, 255);
+        color: rgb(67, 181, 129);
+        transition: linear 0ms;
+    }
+}
