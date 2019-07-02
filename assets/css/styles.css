@@ -55,15 +55,14 @@ button:hover {
     transition: linear 200ms;
 }
 
+button:active {
+    color: rgb(67, 181, 129);
+    transition: linear 0ms;
+}
+
 #sounds {
     margin: 50px auto;
     width: 80%;
-}
-
-@media screen and (max-width: 350px) {
-    button {
-        width: 100%;
-    }
 }
 
 @media screen and (max-width: 475px) {
@@ -73,5 +72,11 @@ button:hover {
 
     #sounds {
         margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    button {
+        width: 100%;
     }
 }
