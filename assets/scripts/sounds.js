@@ -27,7 +27,12 @@ const TIMOTHY = new Map([
     ["i really like it", "tim_good_it_is.ogg"]
 ]);
 
-const OTHER = new Map([["what is it", "what_is_it.ogg"]]);
+const OTHER = new Map([
+    ["what is it", "what_is_it.ogg"],
+    ["fireball face", "fireball_jp.ogg"],
+    ["fireball danger", "fireball_danger.ogg"],
+    ["replay day", "replay_day.ogg"]
+]);
 
 const SECTIONS = new Map([
     ["Not a Magician", MAGICIAN],
