@@ -28,7 +28,7 @@ const TIMOTHY = new Map([
 ]);
 
 const OTHER = new Map([
-    ["what is it", "what_is_it.ogg"],
+    ["what is it", "what_is_it.mp3"],
     ["close up", "jp_face.ogg"],
     ["fireball face", "fireball_jp.ogg"],
     ["fireball danger", "fireball_danger.ogg"],
