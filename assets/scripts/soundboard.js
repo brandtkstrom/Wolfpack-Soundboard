@@ -6,11 +6,10 @@ class Sound {
 
     play() {
         this.audio.currentTime = 0;
-        this.audio.play();
-    }
-
-    load() {
-        this.audio.load();
+        this.audio
+            .play()
+            .then(val => console.log(val))
+            .catch(err => console.log(err));
     }
 }
 
@@ -66,7 +65,6 @@ class Soundboard {
         let soundId = parseInt(this.id);
         let sound = window.soundboard.sounds.get(soundId);
         if (sound) {
-            sound.load();
             sound.play();
         }
     }
