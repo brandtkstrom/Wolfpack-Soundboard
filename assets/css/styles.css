@@ -5,28 +5,56 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
     text-align: center;
+    background-color: rgb(32, 34, 37);
+    color: rgb(255, 255, 255);
 }
 
 section {
     margin-bottom: 30px;
+    text-decoration: underline;
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 3em;
     line-height: 100px;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.7em;
     line-height: 50px;
 }
 
 button {
-    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(32, 34, 37);
+    background-color: rgb(185, 187, 190);
+    padding: 15px 25px;
     text-transform: capitalize;
+    font-size: 1em;
     font-weight: bold;
     margin: 5px;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    transition: linear 200ms;
+}
+
+#sounds {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 350px) {
+    button {
+        width: 100%;
+    }
 }
