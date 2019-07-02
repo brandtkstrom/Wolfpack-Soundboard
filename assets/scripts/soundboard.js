@@ -8,6 +8,10 @@ class Sound {
         this.audio.currentTime = 0;
         this.audio.play();
     }
+
+    load() {
+        this.audio.load();
+    }
 }
 
 class Soundboard {
@@ -62,6 +66,7 @@ class Soundboard {
         let soundId = parseInt(this.id);
         let sound = window.soundboard.sounds.get(soundId);
         if (sound) {
+            sound.load();
             sound.play();
         }
     }
