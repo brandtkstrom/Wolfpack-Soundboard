@@ -3,6 +3,7 @@ class Sound {
         this.audio = new Audio(`assets/sounds/${file}`);
         this.audio.load();
     }
+
     play() {
         this.audio.currentTime = 0;
         this.audio.play();
@@ -38,6 +39,7 @@ class Soundboard {
 
         return sectionArray;
     }
+
     createSoundButtons(sounds) {
         let buttons = [];
         for (var [name, file] of sounds) {

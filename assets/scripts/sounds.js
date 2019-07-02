@@ -18,7 +18,14 @@ const AXE_WATER = new Map([
     ["done broke-ed", "done_broked_it.ogg"]
 ]);
 
-const TIMOTHY = new Map([["it is me", "it_is_me.ogg"]]);
+const TIMOTHY = new Map([
+    ["hey hey", "tim_hey_hey.ogg"],
+    ["it is me", "it_is_me.ogg"],
+    ["good", "tim_good.ogg"],
+    ["tasty", "tim_tasty.ogg"],
+    ["a 10", "tim_10.ogg"],
+    ["i really like it", "tim_good_it_is.ogg"]
+]);
 
 const OTHER = new Map([["what is it", "what_is_it.ogg"]]);
 
