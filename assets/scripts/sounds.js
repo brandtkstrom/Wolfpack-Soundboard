@@ -22,6 +22,9 @@ const AXE_WATER = new Map([
 const HAWK = new Map([
     ["fuck", "hawk_fuck.mp3"],
     ["pussy", "hawk_pussy.mp3"],
+    ["gluten", "hawk_gluten.mp3"],
+    ["apple", "hawk_apple.mp3"],
+    ["no sense", "hawk_nosense.mp3"],
     ["close up", "jp_face.mp3"],
     ["fireball face", "fireball_jp.mp3"],
     ["fireball danger", "fireball_danger.mp3"],
