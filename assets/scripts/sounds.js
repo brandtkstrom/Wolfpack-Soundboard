@@ -31,6 +31,11 @@ const HAWK = new Map([
     ["replay day", "replay_day.mp3"]
 ]);
 
+const FRISKY_DINGO = new Map([
+    ["names", "frisky_names.mp3"],
+    ["bees", "frisky_bees.mp3"]
+]);
+
 const TIMOTHY = new Map([
     ["hey", "tim_hey.mp3"],
     ["howya doin", "tim_howya_doin.mp3"],
@@ -41,15 +46,21 @@ const TIMOTHY = new Map([
     ["good", "tim_good.mp3"],
     ["tasty", "tim_tasty.mp3"],
     ["a 10", "tim_10.mp3"],
-    ["good it is", "tim_good_it_is.mp3"]
+    ["good it is", "tim_good_it_is.mp3"],
+    ["wrastlin", "tim_wrastlin.mp3"]
 ]);
 
-const OTHER = new Map([["what is it", "what_is_it.mp3"]]);
+const OTHER = new Map([
+    ["what is it", "what_is_it.mp3"],
+    ["disappointed", "disappoint.mp3"],
+    ["day ruined", "day_ruined.mp3"]
+]);
 
 const SECTIONS = new Map([
     ["Not a Magician", MAGICIAN],
     ["Axe in the Water", AXE_WATER],
     ["Hawk", HAWK],
+    ["Frisky Dingo", FRISKY_DINGO],
     ["Timothy", TIMOTHY],
     ["Other", OTHER]
 ]);
