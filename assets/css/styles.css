@@ -29,6 +29,7 @@ section {
 }
 
 h1 {
+    display: inline-block;
     font-size: 3em;
     line-height: 100px;
 }
@@ -63,6 +64,27 @@ button:active {
 #sounds {
     margin: 50px auto;
     width: 80%;
+}
+
+img.hawk {
+    display: inline-block;
+    border-radius: 50%;
+    max-height: 4rem;
+    vertical-align: top;
+    top: 1rem;
+    margin: 0 2rem;
+}
+
+img.flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+@media screen and (max-width: 800px) {
+    img.hawk {
+        display: none;
+        visibility: hidden;
+    }
 }
 
 @media screen and (max-width: 475px) {
