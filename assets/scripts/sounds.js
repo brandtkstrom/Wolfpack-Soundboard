@@ -54,8 +54,6 @@ const OTHER = new Map([
     ["what is it", "what_is_it.mp3"],
     ["save me", "save_me.mp3"],
     ["wam","wam.mp3"],
-    ["disappointed", "disappoint.mp3"],
-    ["day ruined", "day_ruined.mp3"],
     ["hello", "hello.mp3"],
     ["love you", "loveyou.mp3"],
     ["cry", "cry.mp3"]
